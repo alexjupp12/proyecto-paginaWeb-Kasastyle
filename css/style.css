@@ -32,6 +32,21 @@
     /* Support for IE. */
     font-feature-settings: 'liga';
 }
+h1{
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    
+}
+
+.bannerPrincipal{
+    padding: 100px;
+    background-image: url(../img/fondoBanner.png);
+    width: 100%;
+    
+}
 
 .bajar{
     display: none;
