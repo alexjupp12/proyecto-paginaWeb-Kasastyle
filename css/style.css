@@ -110,7 +110,33 @@ nav .primary{
     display: flex;
 
 }
+.pCont{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
 
+.h2Cont1 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    padding: 15px;
+}
+.border1{
+    border: 5px;
+    border-color: #ffffff ; 
+    
+    
+}
+.pContenido{
+    display: grid;
+
+}
+.h2Cont2 h2{
+    display: flex;
+    justify-content: center;
+}
 
 .insta img{
     max-width: 100%;
