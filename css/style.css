@@ -185,9 +185,23 @@ nav .primary{
     ;
 }
 
-
-
-
+.imgContacto{
+    display: flex;
+    justify-content: center;
+}
+.imgContacto img{
+    padding: 8px;
+}
+.secSecun {
+    padding: 100px;
+}
+.imgConocenos{
+    display: flex;
+    justify-content: center;
+}
+.imgConocenos img{
+    padding: 20px;
+}
 
 @media screen and (max-width: 768px){
     nav .logo{
