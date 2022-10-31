@@ -1,0 +1,36 @@
+.SectionPrincipal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+    height: 500px;
+    width: 100%;
+    .divFirst{
+        width: 50%;
+        padding: 5px;
+        .h2Cont2{
+            display: flex;
+            justify-content: center;
+        }
+        .pCont1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    .divSecond{
+        padding: 5px;
+        .h2Cont2{
+            display: flex;
+            justify-content: center;
+        }
+        .imgConocenos {
+            display: flex;
+            justify-content: space-around;
+            
+            img{
+                padding: 10px;
+            }
+        }
+    }
+    }
+}

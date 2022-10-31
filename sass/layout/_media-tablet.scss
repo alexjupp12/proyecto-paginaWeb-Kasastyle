@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+    nav {
+        .logo {
+        min-width: 100px;
+    }
+
+        .desktop {
+        display: none;
+    }
+
+    .tablet {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+}
+
+    .principal {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .secundario {
+        .submenu {
+            position: absolute;
+            display: none;
+            background-color: black;
+            width: 200px;
+            right: 0;
+        }
+
+        &:hover .submenu {
+        display: block;
+        }
+    }
+}

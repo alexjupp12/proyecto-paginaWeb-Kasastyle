@@ -1,0 +1,61 @@
+.bajar {
+    display: none;
+}
+
+header {
+    background: rgb(0, 0, 0);
+    color: white;
+    width: 100%;
+}
+
+nav {
+    .mobile {
+        display: none;
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        .more button {
+            border: none;
+            background-color: violet;
+            color: white;
+            padding: 15px;
+            cursor: pointer;
+        }
+    }
+}
+
+    .tablet {
+        display: none;
+    }
+
+    .logo {
+        min-width: 250px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 20px 25px;
+
+        &:hover {
+        color: black;
+        background-color: #a001c8;
+    }
+}
+
+    .desktop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .primary {
+        display: flex;
+        justify-content: space-between;
+    }
+}

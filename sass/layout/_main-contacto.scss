@@ -1,0 +1,34 @@
+.SectionPrincipalContact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    height: 500px;
+    width: 100%;
+    .divFirst{
+        width: 50%;
+        padding: 5px;
+        .h2Cont2{
+            display: flex;
+            justify-content: center;
+        }
+        .imgContacto{
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    .divSecond{
+        width: 50%;
+        padding: 5px;
+        .h2Cont2{
+            display: flex;
+            justify-content: center;
+        }
+        .pCont{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+    }
+}

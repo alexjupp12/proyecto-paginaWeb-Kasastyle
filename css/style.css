@@ -1,0 +1,280 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga'; }
+
+.fondo {
+  background-color: black;
+  color: #ffffff; }
+
+.bajar {
+  display: none; }
+
+header {
+  background: black;
+  color: white;
+  width: 100%; }
+
+nav .mobile {
+  display: none; }
+  nav .mobile .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    nav .mobile .header .more button {
+      border: none;
+      background-color: violet;
+      color: white;
+      padding: 15px;
+      cursor: pointer; }
+
+nav .tablet {
+  display: none; }
+
+nav .logo {
+  min-width: 250px; }
+
+nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 20px 25px; }
+  nav a:hover {
+    color: black;
+    background-color: #a001c8; }
+
+nav .desktop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; }
+
+nav .primary {
+  display: flex;
+  justify-content: space-between; }
+
+.insta img, .faceb img, .wsp img {
+  max-width: 100%;
+  max-height: 100%;
+  height: 70px;
+  width: 70px; }
+
+.faceb, .insta, .wsp {
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.footer {
+  background-color: #0c0c0c;
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  text-decoration: none;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-areas: "insta wsp faceb"; }
+
+h1 {
+  font-size: 150px;
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  align-items: center; }
+
+.bannerPrincipal {
+  padding: 100px;
+  background-image: url(../img/fondoBanner.png);
+  background-position: 0; }
+
+.infoPrincipal {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "infoIzquierda infoDerecha"; }
+  .infoPrincipal .infoIzquierda {
+    padding: 5px; }
+    .infoPrincipal .infoIzquierda .h2Cont1 {
+      padding: 20px;
+      display: flex;
+      justify-content: center; }
+    .infoPrincipal .infoIzquierda .pContenido {
+      display: flex;
+      align-items: center; }
+  .infoPrincipal .infoDerecha {
+    padding: 5px; }
+    .infoPrincipal .infoDerecha .h2Cont2 h2 {
+      padding: 2px;
+      display: flex;
+      justify-content: center; }
+    .infoPrincipal .infoDerecha .emiSemana {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .infoPrincipal .infoDerecha .fondoEmi {
+      background-color: #274954;
+      padding: auto;
+      margin: 6px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center; }
+
+.divPrincipal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  height: 500px;
+  width: 100%; }
+  .divPrincipal .divSecundario1 {
+    width: 50%;
+    padding: 5px; }
+    .divPrincipal .divSecundario1 .h2Cont2 {
+      display: flex;
+      justify-content: center; }
+    .divPrincipal .divSecundario1 .pCont1 {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .divPrincipal .divSecundario2 {
+    width: 50%;
+    padding: 5px; }
+    .divPrincipal .divSecundario2 .h2Cont2 {
+      display: flex;
+      justify-content: center; }
+    .divPrincipal .divSecundario2 .imgBigo {
+      display: flex;
+      justify-content: space-around; }
+
+.SectionPrincipal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px;
+  height: 500px;
+  width: 100%; }
+  .SectionPrincipal .divFirst {
+    width: 50%;
+    padding: 5px; }
+    .SectionPrincipal .divFirst .h2Cont2 {
+      display: flex;
+      justify-content: center; }
+    .SectionPrincipal .divFirst .pCont1 {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .SectionPrincipal .divFirst .divSecond {
+      padding: 5px; }
+      .SectionPrincipal .divFirst .divSecond .h2Cont2 {
+        display: flex;
+        justify-content: center; }
+      .SectionPrincipal .divFirst .divSecond .imgConocenos {
+        display: flex;
+        justify-content: space-around; }
+        .SectionPrincipal .divFirst .divSecond .imgConocenos img {
+          padding: 10px; }
+
+.SectionPrincipalContact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  height: 500px;
+  width: 100%; }
+  .SectionPrincipalContact .divFirst {
+    width: 50%;
+    padding: 5px; }
+    .SectionPrincipalContact .divFirst .h2Cont2 {
+      display: flex;
+      justify-content: center; }
+    .SectionPrincipalContact .divFirst .imgContacto {
+      display: flex;
+      justify-content: space-around; }
+  .SectionPrincipalContact .divSecond {
+    width: 50%;
+    padding: 5px; }
+    .SectionPrincipalContact .divSecond .h2Cont2 {
+      display: flex;
+      justify-content: center; }
+    .SectionPrincipalContact .divSecond .pCont {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px; }
+
+.Principalsectiontiktok {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px;
+  height: 600px;
+  width: 100%; }
+  .Principalsectiontiktok .divPrincipal1 {
+    width: 50%;
+    padding: 5px; }
+    .Principalsectiontiktok .divPrincipal1 .h2Cont2 {
+      display: flex;
+      justify-content: center; }
+    .Principalsectiontiktok .divPrincipal1 .parraf {
+      display: flex;
+      justify-content: center; }
+  .Principalsectiontiktok .divSecundaria {
+    width: 50%;
+    padding: 10px; }
+    .Principalsectiontiktok .divSecundaria .h2Cont2 {
+      display: flex;
+      justify-content: center; }
+    .Principalsectiontiktok .divSecundaria .imgTiktok {
+      display: flex;
+      justify-content: space-around; }
+
+@media screen and (max-width: 768px) {
+  nav .logo {
+    min-width: 100px; }
+  nav .desktop {
+    display: none; }
+  nav .tablet {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; }
+  .principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; }
+  .secundario .submenu {
+    position: absolute;
+    display: none;
+    background-color: black;
+    width: 200px;
+    right: 0; }
+  .secundario:hover .submenu {
+    display: block; } }
+
+@media screen and (max-width: 576px) {
+  nav .desktop, nav .tablet {
+    display: none; }
+  nav .mobile {
+    display: block; } }

@@ -1,0 +1,33 @@
+.divPrincipal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    height: 500px;
+    width: 100%;
+    .divSecundario1{
+        width: 50%;
+        padding: 5px;
+        .h2Cont2{
+            display: flex;
+            justify-content: center;
+        }
+        .pCont1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .divSecundario2{
+        width: 50%;
+        padding: 5px;
+        .h2Cont2{
+            display: flex;
+            justify-content: center;
+        }
+        .imgBigo{
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+}

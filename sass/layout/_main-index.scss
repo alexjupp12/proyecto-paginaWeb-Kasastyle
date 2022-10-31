@@ -1,0 +1,54 @@
+h1 {
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+}
+.bannerPrincipal {
+    padding: 100px;
+    background-image: url(../img/fondoBanner.png);
+    background-position: 0;
+    
+}
+.infoPrincipal{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "infoIzquierda infoDerecha"
+    ;
+    .infoIzquierda{
+        padding: 5px;
+        .h2Cont1{
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .pContenido{
+            display: flex;
+            align-items: center;
+        }
+    }
+    .infoDerecha{
+        padding: 5px;
+        .h2Cont2 h2{
+            padding: 2px;
+            display: flex;
+            justify-content: center;
+        }
+        .emiSemana{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .fondoEmi{
+            background-color: rgb(39, 73, 84);
+            padding: auto;
+            margin: 6px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width: 576px) {
+    nav {
+        .desktop, .tablet {
+        display: none;
+    }
+
+        .mobile {
+        display: block;
+        }
+    }
+}
