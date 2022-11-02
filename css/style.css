@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -112,15 +113,13 @@ h1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas: "infoIzquierda infoDerecha"; }
-  .infoPrincipal .infoIzquierda {
-    padding: 5px; }
-    .infoPrincipal .infoIzquierda .h2Cont1 {
-      padding: 20px;
-      display: flex;
-      justify-content: center; }
-    .infoPrincipal .infoIzquierda .pContenido {
-      display: flex;
-      align-items: center; }
+  .infoPrincipal .infoIzquierda .h2Cont1 h2 {
+    padding: 5px;
+    display: flex;
+    justify-content: center; }
+  .infoPrincipal .infoIzquierda .pContenido {
+    display: flex;
+    align-items: center; }
   .infoPrincipal .infoDerecha {
     padding: 5px; }
     .infoPrincipal .infoDerecha .h2Cont2 h2 {
@@ -249,6 +248,9 @@ h1 {
       justify-content: space-around; }
 
 @media screen and (max-width: 768px) {
+  /** Todas las páginas**/
+  h1 {
+    font-size: 150px; }
   nav .logo {
     min-width: 100px; }
   nav .desktop {
@@ -271,9 +273,41 @@ h1 {
     width: 200px;
     right: 0; }
   .secundario:hover .submenu {
-    display: block; } }
+    display: block; }
+  /** Cambios página index**/
+  .pContenido {
+    display: flex;
+    flex-direction: column; }
+  /** Página Conócenos **/
+  .imgConocenos {
+    max-width: 100%;
+    max-height: 100%; }
+    .imgConocenos img {
+      width: 120px;
+      height: 120px; }
+  /** Contacto **/
+  .SectionPrincipalContact .divFirst .imgContacto {
+    max-width: 100%;
+    max-height: 100%; }
+    .SectionPrincipalContact .divFirst .imgContacto img {
+      height: 80px;
+      width: 80px; }
+  /** Bigo live página**/
+  .divPrincipal .divSecundario2 .imgBigo {
+    max-width: 100%;
+    max-height: 100%; }
+    .divPrincipal .divSecundario2 .imgBigo img {
+      width: 100px; }
+  /** Tiktok Página **/
+  .Principalsectiontiktok .divSecundaria .imgTiktok {
+    max-width: 100%;
+    max-height: 100%; }
+    .Principalsectiontiktok .divSecundaria .imgTiktok img {
+      width: 150px; } }
 
 @media screen and (max-width: 576px) {
+  h1 {
+    font-size: 100px; }
   nav .desktop, nav .tablet {
     display: none; }
   nav .mobile {

@@ -19,9 +19,8 @@ h1 {
     "infoIzquierda infoDerecha"
     ;
     .infoIzquierda{
-        padding: 5px;
-        .h2Cont1{
-            padding: 20px;
+        .h2Cont1 h2{
+            padding: 5px;
             display: flex;
             justify-content: center;
         }
